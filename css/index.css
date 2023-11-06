@@ -3,4 +3,59 @@
     margin: 0;
     box-sizing: border-box;
     cursor: pointer;
+    background-color: #ebebe0;
+}
+html {
+    position: relative;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: #d87093;
+    font-size: 48px;
+    font-weight: 600;
+    padding: 15px 30px;
+}
+.nav a {
+    color: #d87093;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    padding-right: 30px;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100%-86px);
+}
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 70px;
+    line-height: 48px;
+    color: #5d5d5d;
+}
+p {
+    font-size: 24px;
+    color: #5d5d5d;
+    padding: 75px 30px;
+    text-align: center;  
+}
+.main-img {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    padding: 30px 30px 20px 30px;
+    color: #2f2f2f;
+    position: fixed;
+    bottom: 0;
 }
